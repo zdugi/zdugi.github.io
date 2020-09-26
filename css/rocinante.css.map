@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "rocinante.css",
-	"sourceRoot": "C:/Users/Zdravko/Documents/lab/proj/zdugi-beta",
+	"sourceRoot": "C:/Users/Zdravko/Documents/Lab/proj/zdugi-beta",
 	"sources": [
 		"themes/rocinante/assets/css/rocinante.scss",
 		"themes/rocinante/assets/css/includes.scss"
