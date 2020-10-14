@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+<link rel="shortcut icon" href="https://zdugi.github.io/images/favicon.ico" />
+<title>Hermes - Rich Web | Zdravko Dugonjic</title>
+<meta name="title" content="Hermes - Rich Web" />
+<meta name="description" content="Hermes project" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="Hermes - Rich Web" />
+<meta property="og:description" content="Hermes project" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zdugi.github.io/hermes-rich-web/" />
+<meta property="og:image" content="https://zdugi.github.io/images/share.png"/>
+<meta property="article:published_time" content="2020-10-13T12:36:36+02:00" />
+<meta property="article:modified_time" content="2020-10-13T12:36:36+02:00" /><meta property="og:site_name" content="Zdravko Dugonjic" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://zdugi.github.io/images/share.png"/>
+
+<meta name="twitter:title" content="Hermes - Rich Web"/>
+<meta name="twitter:description" content="Hermes project"/>
+
+
+
+<meta itemprop="name" content="Hermes - Rich Web">
+<meta itemprop="description" content="Hermes project">
+<meta itemprop="datePublished" content="2020-10-13T12:36:36&#43;02:00" />
+<meta itemprop="dateModified" content="2020-10-13T12:36:36&#43;02:00" />
+<meta itemprop="wordCount" content="495">
+<meta itemprop="image" content="https://zdugi.github.io/images/share.png"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: white;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #eee;
+  }
+
+  pre code {
+    border-left: 1px solid #999;
+    color: #555;
+    display: block;
+    padding: 10px;
+    white-space: pre-wrap;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #555;
+    padding-left: 10px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  figure {
+    width: 100%;
+    margin: 2em 0;
+    text-align: center;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Zdravko Dugonjic</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Hermes - Rich Web</h1>
+<p>
+  <i>
+    <time datetime='2020-10-13' pubdate>
+      13 Oct, 2020
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Usually, easy reachable articles and videos, related to various topics,
+are not meaningful in respect to the time needed to consume them. Bubbling.
+Many are similar in a way that is not important which one you choose, similar ideas,
+nearly identical story flow.
+Shortly after consumption, I forget that I ever reached that material — no thought-provoking ideas.</p>
+<p>Like George Hotz said in one of his live sessions,
+I also like text-rich web pages with minimal web components —
+how old web looks like.
+The author of a blog post or essay should focus on paragraphs with few graphics and
+not worrying too much about style or trying to sell something at the end.
+I would like to find a systematic way to reach that golden nectar.</p>
+<p>To get golden nectar, we need to create a clear objective. For now, I will only
+focus on page structure.
+My analysis is staring with my favorite websites that you can find in the <a href="https://github.com/zdugi/HermesEngine/blob/master/config.yml" target="_blank">configuration file</a>.</p>
+<h2 id="methodology">Methodology</h2>
+<p>To reach our goal, we should define &ldquo;good page&rdquo; mathematically. We will score the page and if that score is lower than given thrash hold, which we determined empirically, we will keep that page in our record. The proposed formula is bellow, each variable represents the number of specific entities.</p>
+<figure>
+    <img src="/images/hermes_web_score.png"/> 
+</figure>
+
+<p>We can not reach all pages<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, so instead of extracting links from each visited page, I use probability condition to check is page <em>suitable</em> for further exploration</p>
+<figure>
+    <img src="/images/hermes_web_probability.png"/> 
+</figure>
+
+<p>where <em>r</em> represents random number from uniform distribution. If above condition is satisfied, page is <em>suitable</em>.</p>
+<h2 id="implementation">Implementation</h2>
+<p>Complete solution is implemented in one Python script, which you can find on the link. Implementation is pretty straightforward. The solution is logically divided into two segments: collector and page workers. Collector workers fetch web pages and pass them to page workers, which analyze page&rsquo;s content and extract hyperlinks.</p>
+<p>The proposed solution is supplemented with an additional script, that generates a page with a representation of the final result.</p>
+<h2 id="results-and-discussion">Results and discussion</h2>
+<p>After a few runs, I have analyzed fetched websites and got some impressive results. Below, you can see some interesting websites. For example, one that is talking about website obesity is a website that is covering ideal that I&rsquo;m striving for in this article!</p>
+<ul>
+<li><a href="https://idlewords.com/talks/website_obesity.htm" target="_blank">https://idlewords.com/talks/website_obesity.htm</a></li>
+<li><a href="http://www-pw.physics.uiowa.edu/space-audio/sounds/" target="_blank">http://www-pw.physics.uiowa.edu/space-audio/sounds/</a></li>
+<li><a href="https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo8info.html" target="_blank">https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo8info.html</a></li>
+<li><a href="https://www.defectiveyeti.com/archives/cat_favorite_posts.html" target="_blank">https://www.defectiveyeti.com/archives/cat_favorite_posts.html</a></li>
+</ul>
+<p>Because the proposed model prefers long articles, I get also some user manuals and using policies — which are not that useful. That could be avoided by semantic analysis, but that will also make the proposed model much more complex.</p>
+<p>In this attend, I focused on website structure as a measure of <em>suitability</em>, words and sentences are to a great degree out of consideration. Elegant approach, that should improve results, is using deep neural networks — but for that I need to create annotated dataset, which consumes a lot of time. That could be a topic in some of following articles.</p>
+<p>Full implementation could be found on following <a href="https://github.com/zdugi/HermesEngine" target="_blank">link</a>. Till the next time, cheers!
+<img src="/images/parrots/parrot.gif" alt="cultofthepartyparrot.com"></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>hardware limitations <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

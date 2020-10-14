@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2020, Zdravko Dugonjic.</copyright>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2020 12:36:36 +0200</lastBuildDate>
     
 	<atom:link href="https://zdugi.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hermes - Rich Web</title>
+      <link>https://zdugi.github.io/hermes-rich-web/</link>
+      <pubDate>Tue, 13 Oct 2020 12:36:36 +0200</pubDate>
+      
+      <guid>https://zdugi.github.io/hermes-rich-web/</guid>
+      <description>Usually, easy reachable articles and videos, related to various topics, are not meaningful in respect to the time needed to consume them. Bubbling. Many are similar in a way that is not important which one you choose, similar ideas, nearly identical story flow. Shortly after consumption, I forget that I ever reached that material — no thought-provoking ideas.
+Like George Hotz said in one of his live sessions, I also like text-rich web pages with minimal web components — how old web looks like.</description>
+    </item>
     
     <item>
       <title>In the Beginning was the Isolation</title>
