@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zdravko Dugonjic</title>
+    <title>Zdravko Dugonjić</title>
     <link>https://zdugi.github.io/</link>
-    <description>Recent content on Zdravko Dugonjic</description>
+    <description>Recent content on Zdravko Dugonjić</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2020, Zdravko Dugonjic.</copyright>
+    <copyright>Copyright © 2020, Zdravko Dugonjić.</copyright>
     <lastBuildDate>Tue, 13 Oct 2020 12:36:36 +0200</lastBuildDate>
     
 	<atom:link href="https://zdugi.github.io/index.xml" rel="self" type="application/rss+xml" />
