@@ -6,5 +6,6 @@ Software engineering student at [UNS](http://www.uns.ac.rs/index.php). Intereste
 [zdravko.dugi@gmail.com](mailto:zdravko.dugi@gmail.com) | [Github](https://github.com/zdugi) | [Goodreads](https://www.goodreads.com/user/show/93473836-zdravko)
 
 ---
->
-{{< spotify "https://open.spotify.com/embed/track/5Vc0xSTJfZQB0a08flXPbV" >}}
+
+![Minoru Nomata - Eastbound](/images/minoru-nomata-eastbound-18-1999-5.jpg)
+{{< image-title "Minoru Nomata" >}}
