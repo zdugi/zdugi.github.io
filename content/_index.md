@@ -1,4 +1,4 @@
-Software engineering student at [UNS](http://www.uns.ac.rs/index.php). Interested in artificial intelligence, software architecture and web development. In free time, I enjoy reading books, exploring arts, history and cultures of other countries.
+Software engineer from [Novi Sad](https://en.wikipedia.org/wiki/Novi_Sad). Interested in artificial intelligence, software architecture and web development. In free time, I enjoy reading books, exploring arts, history and cultures of other countries.
 
 > Thought is only a flash between two long nights, but this flash is everything.
 > — <cite>Poincare</cite>
