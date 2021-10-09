@@ -3,7 +3,7 @@ Software engineer from {{< target-blank "Novi Sad" "https://en.wikipedia.org/wik
 > Thought is only a flash between two long nights, but this flash is everything.
 > — <cite>Poincare</cite>
 
-[zdravko.dugi@gmail.com](mailto:zdravko.dugi@gmail.com) | [Github](https://github.com/zdugi) | [Goodreads](https://www.goodreads.com/user/show/93473836-zdravko)
+[zdravko.dugi@gmail.com](mailto:zdravko.dugi@gmail.com) | {{< target-blank "Github" "https://github.com/zdugi" >}} | {{< target-blank "Goodreads" "https://www.goodreads.com/user/show/93473836-zdravko" >}}
 
 ---
 
