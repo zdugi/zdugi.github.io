@@ -1,1 +1,1 @@
-# zdugi-private
+# zdugi
