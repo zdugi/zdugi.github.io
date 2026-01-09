@@ -1,0 +1,34 @@
+# Zdravko's Personal Website
+
+## About
+Academic portfolio for a robotics researcher focused on tactile sensing.
+
+## Website Structure
+- `index.html` – Single-page portfolio
+- `style/grid/` – Simple-grid CSS framework
+- `assets/` – CV, profile image, favicon
+
+## Index Structure
+- Whole website is within the responsive simgle-grid structure. Support all device layouts (e.g. smartphone, tablet and workstation displays).
+### Content
+- name
+- profile photo
+- brief about paragraph
+- link to the CV
+- link to the Google Scholar page
+
+## Style Guidelines
+- **Tone**: Professional, academic, minimal
+- **Font**: PT Serif (already loaded via Google Fonts)
+- **Layout**: Simple-grid framework, keep it lightweight
+- **HTML**: Semantic, accessible, no unnecessary complexity
+
+## Code Conventions
+- 4-space indentation
+- Inline styles only for simple overrides; prefer CSS classes for reusable styles
+- Keep the page fast and dependency-free
+
+## Git Workflow
+- Use conventional commits: `feat:`, `fix:`, `style:`, `docs:`
+- Commit after completing coherent changes
+- Test locally before pushing
